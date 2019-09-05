@@ -1,4 +1,4 @@
-def current_age_for_birth_year(zahl) do
+def current_age_for_birth_year(zahl) 
 
 
   current_age = zahl - Time.now.year
