@@ -1,7 +1,8 @@
 
 
-def current_age_for_birth_year(zahl) do
+def current_age_for_birth_year(zahl)
   current_age = Time.now.year - zahl
-  print current_age
+
+  return current_age
 
 end
